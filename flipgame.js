@@ -95,7 +95,7 @@ const checkCards = (e) => {
             playerLives--;
             playLivesCount.textContent = playerLives;
             if (playerLives === 0) {
-                restart("So close! Your claws missed the edge. Maybe Linh knows the trick 🐾");
+                restart("So close! Your claws missed the edge. Maybe Linh knows the trick !!! ");
             }
         }
         //run a check when won
