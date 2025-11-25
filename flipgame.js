@@ -11,7 +11,7 @@ playLivesCount.textContent = playerLives
 //generate data
 const getData = () => [
 
-    { imgSrc: "./images/3.png", name: '1' },
+    { imgSrc: "./images/1.png", name: '1' },
     { imgSrc: "./images/2.png", name: '2' },
     { imgSrc: "./images/3.png", name: '3' },
     { imgSrc: "./images/4.png", name: '4' },
@@ -95,7 +95,7 @@ const checkCards = (e) => {
             playerLives--;
             playLivesCount.textContent = playerLives;
             if (playerLives === 0) {
-                restart("So close! Your claws missed the edge. Maybe Linh knows the trick !!! ");
+                restart("So close! Your claws missed the edge. Maybe Linh knows the trick. ");
             }
         }
         //run a check when won
