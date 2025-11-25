@@ -100,7 +100,7 @@ const checkCards = (e) => {
         }
         //run a check when won
         if (toggleCard.length === 16) {
-            restart('congrats, you won !')
+            restart('Congrats! The cat approves !')
         }
     }
 };
